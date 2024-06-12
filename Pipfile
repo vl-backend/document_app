@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+django = "*"
+djangorestframework = "*"
+django-filter = "*"
+djangorestframework-simplejwt = "*"
+drf-yasg = "*"
+python-dotenv = "*"
+pytest = "*"
+psycopg2 = "*"
+psycopg2-binary = "*"
+pytest-django = "*"
+django-dynamic-fixture = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
